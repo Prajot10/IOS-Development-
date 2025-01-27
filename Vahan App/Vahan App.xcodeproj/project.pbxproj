@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE12CAA62B01272600E128AC /* Background Login Page.png in Resources */ = {isa = PBXBuildFile; fileRef = AE12CAA52B01272600E128AC /* Background Login Page.png */; };
+		AE3492092B0149F500D2291D /* Register 1 View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3492082B0149F500D2291D /* Register 1 View Controller.swift */; };
+		AEA9626F2AFFF96600178938 /* dk-01 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9626B2AFFF96600178938 /* dk-01 1@3x.png */; };
+		AEA962702AFFF96600178938 /* dk-01 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9626C2AFFF96600178938 /* dk-01 1@2x.png */; };
+		AEA962712AFFF96600178938 /* dk-01 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9626D2AFFF96600178938 /* dk-01 1.png */; };
+		AEC490622AFABEEC0005F09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490612AFABEEC0005F09A /* AppDelegate.swift */; };
+		AEC490642AFABEEC0005F09A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490632AFABEEC0005F09A /* SceneDelegate.swift */; };
+		AEC490662AFABEEC0005F09A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490652AFABEEC0005F09A /* ViewController.swift */; };
+		AEC490692AFABEEC0005F09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC490672AFABEEC0005F09A /* Main.storyboard */; };
+		AEC4906E2AFABEED0005F09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC4906C2AFABEED0005F09A /* LaunchScreen.storyboard */; };
+		AEC490792AFABEED0005F09A /* Vahan_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490782AFABEED0005F09A /* Vahan_AppTests.swift */; };
+		AEC490832AFABEED0005F09A /* Vahan_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490822AFABEED0005F09A /* Vahan_AppUITests.swift */; };
+		AEC490852AFABEED0005F09A /* Vahan_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC490842AFABEED0005F09A /* Vahan_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEC490752AFABEED0005F09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC490562AFABEEC0005F09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC4905D2AFABEEC0005F09A;
+			remoteInfo = "Vahan App";
+		};
+		AEC4907F2AFABEED0005F09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC490562AFABEEC0005F09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC4905D2AFABEEC0005F09A;
+			remoteInfo = "Vahan App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE12CAA52B01272600E128AC /* Background Login Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background Login Page.png"; sourceTree = "<group>"; };
+		AE3492082B0149F500D2291D /* Register 1 View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register 1 View Controller.swift"; sourceTree = SOURCE_ROOT; };
+		AEA962662AFFF92000178938 /* Welcome Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome Screen.png"; sourceTree = "<group>"; };
+		AEA962672AFFF92B00178938 /* Welcome Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome Screen.png"; path = "../../../Authentication Assets/Welcome Screen.png"; sourceTree = "<group>"; };
+		AEA9626B2AFFF96600178938 /* dk-01 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dk-01 1@3x.png"; sourceTree = "<group>"; };
+		AEA9626C2AFFF96600178938 /* dk-01 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dk-01 1@2x.png"; sourceTree = "<group>"; };
+		AEA9626D2AFFF96600178938 /* dk-01 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dk-01 1.png"; sourceTree = "<group>"; };
+		AEC4905E2AFABEEC0005F09A /* Vahan App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vahan App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC490612AFABEEC0005F09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC490632AFABEEC0005F09A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEC490652AFABEEC0005F09A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC490682AFABEEC0005F09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC4906D2AFABEED0005F09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC4906F2AFABEED0005F09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC490742AFABEED0005F09A /* Vahan AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vahan AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC490782AFABEED0005F09A /* Vahan_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vahan_AppTests.swift; sourceTree = "<group>"; };
+		AEC4907E2AFABEED0005F09A /* Vahan AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vahan AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC490822AFABEED0005F09A /* Vahan_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vahan_AppUITests.swift; sourceTree = "<group>"; };
+		AEC490842AFABEED0005F09A /* Vahan_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vahan_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC4905B2AFABEEC0005F09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC490712AFABEED0005F09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC4907B2AFABEED0005F09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA962682AFFF96600178938 /* Authentication Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AE12CAA52B01272600E128AC /* Background Login Page.png */,
+				AEA9626A2AFFF96600178938 /* ios */,
+			);
+			path = "Authentication Assets";
+			sourceTree = "<group>";
+		};
+		AEA9626A2AFFF96600178938 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9626B2AFFF96600178938 /* dk-01 1@3x.png */,
+				AEA9626C2AFFF96600178938 /* dk-01 1@2x.png */,
+				AEA9626D2AFFF96600178938 /* dk-01 1.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		AEC490552AFABEEC0005F09A = {
+			isa = PBXGroup;
+			children = (
+				AEA962682AFFF96600178938 /* Authentication Assets */,
+				AEC490602AFABEEC0005F09A /* Vahan App */,
+				AEC490772AFABEED0005F09A /* Vahan AppTests */,
+				AEC490812AFABEED0005F09A /* Vahan AppUITests */,
+				AEC4905F2AFABEEC0005F09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC4905F2AFABEEC0005F09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4905E2AFABEEC0005F09A /* Vahan App.app */,
+				AEC490742AFABEED0005F09A /* Vahan AppTests.xctest */,
+				AEC4907E2AFABEED0005F09A /* Vahan AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC490602AFABEEC0005F09A /* Vahan App */ = {
+			isa = PBXGroup;
+			children = (
+				AEC490612AFABEEC0005F09A /* AppDelegate.swift */,
+				AEC490632AFABEEC0005F09A /* SceneDelegate.swift */,
+				AE3492082B0149F500D2291D /* Register 1 View Controller.swift */,
+				AEC490652AFABEEC0005F09A /* ViewController.swift */,
+				AEC490672AFABEEC0005F09A /* Main.storyboard */,
+				AEC4906C2AFABEED0005F09A /* LaunchScreen.storyboard */,
+				AEC4906F2AFABEED0005F09A /* Info.plist */,
+			);
+			path = "Vahan App";
+			sourceTree = "<group>";
+		};
+		AEC490772AFABEED0005F09A /* Vahan AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC490782AFABEED0005F09A /* Vahan_AppTests.swift */,
+			);
+			path = "Vahan AppTests";
+			sourceTree = "<group>";
+		};
+		AEC490812AFABEED0005F09A /* Vahan AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA962662AFFF92000178938 /* Welcome Screen.png */,
+				AEA962672AFFF92B00178938 /* Welcome Screen.png */,
+				AEC490822AFABEED0005F09A /* Vahan_AppUITests.swift */,
+				AEC490842AFABEED0005F09A /* Vahan_AppUITestsLaunchTests.swift */,
+			);
+			path = "Vahan AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC4905D2AFABEEC0005F09A /* Vahan App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC490882AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan App" */;
+			buildPhases = (
+				AEC4905A2AFABEEC0005F09A /* Sources */,
+				AEC4905B2AFABEEC0005F09A /* Frameworks */,
+				AEC4905C2AFABEEC0005F09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vahan App";
+			productName = "Vahan App";
+			productReference = AEC4905E2AFABEEC0005F09A /* Vahan App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC490732AFABEED0005F09A /* Vahan AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC4908B2AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan AppTests" */;
+			buildPhases = (
+				AEC490702AFABEED0005F09A /* Sources */,
+				AEC490712AFABEED0005F09A /* Frameworks */,
+				AEC490722AFABEED0005F09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC490762AFABEED0005F09A /* PBXTargetDependency */,
+			);
+			name = "Vahan AppTests";
+			productName = "Vahan AppTests";
+			productReference = AEC490742AFABEED0005F09A /* Vahan AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEC4907D2AFABEED0005F09A /* Vahan AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC4908E2AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan AppUITests" */;
+			buildPhases = (
+				AEC4907A2AFABEED0005F09A /* Sources */,
+				AEC4907B2AFABEED0005F09A /* Frameworks */,
+				AEC4907C2AFABEED0005F09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC490802AFABEED0005F09A /* PBXTargetDependency */,
+			);
+			name = "Vahan AppUITests";
+			productName = "Vahan AppUITests";
+			productReference = AEC4907E2AFABEED0005F09A /* Vahan AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC490562AFABEEC0005F09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AEC4905D2AFABEEC0005F09A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AEC490732AFABEED0005F09A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AEC4905D2AFABEEC0005F09A;
+					};
+					AEC4907D2AFABEED0005F09A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AEC4905D2AFABEEC0005F09A;
+					};
+				};
+			};
+			buildConfigurationList = AEC490592AFABEEC0005F09A /* Build configuration list for PBXProject "Vahan App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC490552AFABEEC0005F09A;
+			productRefGroup = AEC4905F2AFABEEC0005F09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC4905D2AFABEEC0005F09A /* Vahan App */,
+				AEC490732AFABEED0005F09A /* Vahan AppTests */,
+				AEC4907D2AFABEED0005F09A /* Vahan AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC4905C2AFABEEC0005F09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC4906E2AFABEED0005F09A /* LaunchScreen.storyboard in Resources */,
+				AEA9626F2AFFF96600178938 /* dk-01 1@3x.png in Resources */,
+				AE12CAA62B01272600E128AC /* Background Login Page.png in Resources */,
+				AEA962702AFFF96600178938 /* dk-01 1@2x.png in Resources */,
+				AEA962712AFFF96600178938 /* dk-01 1.png in Resources */,
+				AEC490692AFABEEC0005F09A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC490722AFABEED0005F09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC4907C2AFABEED0005F09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC4905A2AFABEEC0005F09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3492092B0149F500D2291D /* Register 1 View Controller.swift in Sources */,
+				AEC490662AFABEEC0005F09A /* ViewController.swift in Sources */,
+				AEC490622AFABEEC0005F09A /* AppDelegate.swift in Sources */,
+				AEC490642AFABEEC0005F09A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC490702AFABEED0005F09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC490792AFABEED0005F09A /* Vahan_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC4907A2AFABEED0005F09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC490832AFABEED0005F09A /* Vahan_AppUITests.swift in Sources */,
+				AEC490852AFABEED0005F09A /* Vahan_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC490762AFABEED0005F09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC4905D2AFABEEC0005F09A /* Vahan App */;
+			targetProxy = AEC490752AFABEED0005F09A /* PBXContainerItemProxy */;
+		};
+		AEC490802AFABEED0005F09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC4905D2AFABEEC0005F09A /* Vahan App */;
+			targetProxy = AEC4907F2AFABEED0005F09A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEC490672AFABEEC0005F09A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC490682AFABEEC0005F09A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC4906C2AFABEED0005F09A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC4906D2AFABEED0005F09A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC490862AFABEED0005F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC490872AFABEED0005F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC490892AFABEED0005F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vahan App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC4908A2AFABEED0005F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vahan App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEC4908C2AFABEED0005F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vahan App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vahan App";
+			};
+			name = Debug;
+		};
+		AEC4908D2AFABEED0005F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vahan App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vahan App";
+			};
+			name = Release;
+		};
+		AEC4908F2AFABEED0005F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vahan App";
+			};
+			name = Debug;
+		};
+		AEC490902AFABEED0005F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prajot.Vahan-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vahan App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC490592AFABEEC0005F09A /* Build configuration list for PBXProject "Vahan App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC490862AFABEED0005F09A /* Debug */,
+				AEC490872AFABEED0005F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC490882AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC490892AFABEED0005F09A /* Debug */,
+				AEC4908A2AFABEED0005F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC4908B2AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC4908C2AFABEED0005F09A /* Debug */,
+				AEC4908D2AFABEED0005F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC4908E2AFABEED0005F09A /* Build configuration list for PBXNativeTarget "Vahan AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC4908F2AFABEED0005F09A /* Debug */,
+				AEC490902AFABEED0005F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC490562AFABEEC0005F09A /* Project object */;
+}
